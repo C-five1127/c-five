@@ -1,0 +1,62 @@
+@charset 'UTF-8';
+
+section h2 {
+  text-align: center;
+  color: #fff;
+}
+
+section img {
+  width: 50vw;
+  object-fit: cover;
+}
+
+section img:hover {
+  mask-image: radial-gradient(#000, transparent 100%);
+  -webkit-mask-image: radial-gradient(#000, transparent 100%);
+}
+
+.company img {
+  height: 60vh;
+}
+
+.services img {
+  height: 35vh;
+}
+
+.services h2 {
+  color: #000;
+}
+
+.recruit {
+  display: flex;
+  justify-content: center;
+}
+
+.recruit img {
+  height: 15vw;
+}
+
+
+@media screen and (max-width: 480px){
+	
+	section .company img{
+		height: 15vh;
+	}
+
+	section .company p{
+		font-size: 3vw;
+	}
+
+	section .services .l-bar{
+		margin: 10px auto;
+	}
+
+	section .services img{
+		height: 10vh;
+	}
+
+	section .services p{
+		font-size: 2vw;
+	}
+	
+}

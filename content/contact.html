@@ -1,0 +1,79 @@
+
+<section>
+
+
+<br>
+<br>
+<br>
+
+<div class="title">
+    <h2>お問い合わせフォーム</h2>
+    <p>お問い合わせメールフォームに必要事項を入力後、送信ボタンを押してください。</p>
+</div>
+
+<form action="mail/mailform.php" method="post" id="mail_form">
+
+    <dl>
+        <dt>お名前</dt>
+        <dd class="required"><input type="text" placeholder="お名前（姓）" id="name" name="name_1" value="" /> <input type="text" placeholder="お名前（名）" id="name" name="name_2" value="" /></dd>
+    </dl>
+
+    <dl>
+        <dt>フリガナ</dt>
+        <dd class="required"><input type="text" placeholder="フリガナ（姓）" id="read" name="read_1" value="" /> <input type="text" placeholder="フリガナ（名）" id="read" name="read_2" value="" /></dd>
+    </dl>
+
+    <dl>
+        <dt>電話番号</dt>
+        <dd id="is-required-phone"><input type="tel" placeholder="電話番号" id="phone" name="phone" value="" /></dd>
+    </dl>
+
+    <dl>
+        <dt>メールアドレス</dt>
+        <dd id="is-required-mail">
+            <ul>
+                <li><input type="email" id="mail_address" placeholder="メールアドレス" name="mail_address" value="" /></li>
+                <li><input type="email" id="mail_address" placeholder="メールアドレス（再度）" name="mail_address_confirm" value="" /></li>
+            </ul>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>ご希望の連絡方法</dt>
+        <dd class="required">
+            <ul>
+                <li><label><input type="radio" id="radio-phone" class="target" name="target" value="電話" />電話</label></li>
+                <li><label><input type="radio" id="radio-mail" class="target" name="target" value="メール" />メール</label></li>
+                <li><label><input type="radio" id="radio-either" class="target" name="target" value="どちらでも可" />どちらでも可</label></li>
+            </ul>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>問い合わせ内容またはご意見</dt>
+        <dd>
+            <textarea id="mail_contents" name="mail_contents" cols="40" rows="5"></textarea>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>個人情報のお取り扱いについての同意</dt>
+        <dd class="required">
+            <ul>
+                <li><label><input type="radio" class="agree" name="agree" value="同意する" />同意する</label></li>
+            </ul>
+        </dd>
+    </dl>
+
+    <p>
+        ※ご指定頂きましたEメールアドレスにドメイン指定受信などの制限を設けられている<br />場合、以下のドメインから届くメールが受信できるよう設定をお願い致します。 <br />「@c-five.com」
+    </p>
+
+    <p id="form_submit"><input type="button" id="form_submit_button" value="送信する" /></p>
+
+</form>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/mailform-js.php"></script>
+
+</section>

@@ -1,0 +1,48 @@
+@charset 'UTF-8';
+
+section img.logo {
+  width: 25vw;
+  object-fit: contain;
+}
+
+section img.corp {
+  width: 15vw;
+  object-fit: contain;
+}
+
+section table {
+  margin: auto;
+}
+
+section table tr {
+  height: 40vh;
+}
+
+section table tr td {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 480px){
+	section .group_table{
+		margin: auto;
+		font-size: 1.5vw;
+	}
+	
+	section .group_table tr{
+		height: 10vh;
+	}
+
+	section .group_table td{
+		line-height: 1rem;
+	}
+	
+	section .group_table img.corp{
+		width: 20vw;
+	}
+	
+	section .group_table img.logo{
+		width: 30vw;
+	}
+	
+
+}

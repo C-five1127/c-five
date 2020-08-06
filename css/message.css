@@ -1,0 +1,37 @@
+@charset 'UTF-8';
+
+section {
+  width: 60vw;
+  margin: auto;
+}
+
+section h3 {
+  font-size: 1.5vw;
+}
+
+section p {
+  text-align: right;
+}
+
+.top{
+	float: right;
+	margin: 20px 0 20px 0;
+}
+
+#philosophy{
+	clear:  both;
+}
+
+@media screen and (max-width: 480px){
+	section{
+		width: 80vw;
+	}
+	
+	section .message h2{
+		font-size: 6vw;
+	}
+	
+	section .message h3{
+		font-size: 3vw;
+	}
+}

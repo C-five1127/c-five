@@ -1,0 +1,116 @@
+@charset 'UTF-8';
+
+iframe {
+  width: 60vw;
+  height: 40vw;
+}
+
+/******************************************************************************/
+
+header .menu {
+  display: none;
+}
+
+header .sp-menu {
+  z-index: 999;
+  display: block;
+  width: 2rem;
+  margin: auto 5px 0 auto;
+}
+
+/* icon */
+header .custom-menu img {
+  width: 2rem;
+  margin: 10px 6vw 10px auto;
+  display: block;
+}
+
+header .custom-menu {
+  display: none;
+  z-index: 900;
+  line-height: 10vh;
+  text-align: center;
+  background-color: rgba(80, 80, 80, 0.8);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+header .custom-menu ul {
+	justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+header .custom-menu ul li label {
+	padding: 0 2vw;
+	color: #fff;
+	font-size: 5vw;
+}
+
+header .custom-menu ul li label:hover {
+	color: #2f669a;
+  border-bottom: 2px solid #2f669a;
+}
+
+header .custom-menu ul li label.active {
+  color: orange;
+  border-bottom: 2px solid #2f669a;
+}
+
+/******************************************************************************/
+
+footer .copyright {
+  padding: 3rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+footer a{
+  color:#3F3E3E;
+  font-size: 0.6rem;
+}
+
+footer .l-flex {
+  display: block;
+}
+
+footer .contact{
+	height: 10vh;
+}
+
+footer .contact .contact_information{
+	height: 20%;
+}
+
+footer table td{
+	padding: 0px 5vw;
+}
+
+footer .policy{
+	text-align: center;
+}
+
+/******************************************************************************/
+
+section table {
+  width: auto;
+  margin: 10px;
+}
+
+section table tr th,
+section table tr td {
+  line-height: 2rem;
+}
+
+.service_details {
+  width: 80vw;
+}
+
+.wrapper_details {
+  width: 50vw;
+}
+
+.wrapper_image img {
+  width: 65vw;
+}

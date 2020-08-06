@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+
+section table {
+  width: 70vw;
+  margin: auto;
+}
+
+section table tr th,
+section table tr td {
+  font-size: 1.5vw;
+  line-height: 7rem;
+  text-align: left;
+}
+
+section table tr th {
+  width: 25%;
+}
+
+section table tr td {
+  width: 75%;
+}
+
+td a{	
+	text-decoration: none;
+}
+
+@media screen and (max-width: 480px){
+	section table tr th,section table tr td{
+		font-size: 3.5vw;
+	}
+}

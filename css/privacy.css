@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+section {
+  margin: 0 20vw;
+}
+
+section .l-right {
+  text-align: right;
+}
+
+section .information p {
+  color: #000;
+}
+
+@media screen and (max-width: 480px){
+	section{
+		width: 80vw;
+		margin: auto;
+	}
+	
+	section h3{
+		font-size: 5vw;
+	}
+	
+	section p{
+		font-size: 3vw;
+	}
+}

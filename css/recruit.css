@@ -1,0 +1,60 @@
+@charset 'UTF-8';
+
+section h2 {
+  text-align: center;
+}
+
+section table {
+  width: 70vw;
+  margin: auto;
+}
+
+section table tr th,
+section table tr td {
+  font-size: 1.5vw;
+  line-height: 7rem;
+  text-align: left;
+}
+
+section table tr th {
+  width: 25%;
+}
+
+section table tr td {
+  width: 75%;
+}
+
+.apply{
+	margin: 20px 0 20px 0;
+}
+
+.apply-btn {
+  font-size: 1.5vw;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  border-bottom: solid 3px #4169e1;
+  border-left: solid 3px #4169e1;
+  color: #4169e1;
+  transition: .4s;
+}
+
+.apply-btn:hover {
+  padding-left: 1.0em;
+  padding-right: 0.5em;
+}
+
+@media screen and (max-width: 480px){
+	section h2{
+		font-size: 6.5vw;
+	}
+	section table tr th,section table tr td{
+		font-size: 3.5vw;
+	}
+	
+	section .apply-btn{
+		font-size: 4.5vw;
+	}
+}

@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+
+section .square_image img {
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
+}
+
+section .rectangle_image img {
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width: 480px){
+	section .square_image img{
+		height: 20vw;
+	}
+
+
+	section .company-info p{
+		font-size: 3vw;
+	}
+
+	section .rectangle_image img{
+		height: 20vw;
+	}
+
+	section .rectangle_image p{
+		font-size: 3vw;
+	}
+}

@@ -1,0 +1,72 @@
+@charset 'UTF-8';
+
+section h2 {
+  font-size: 2vw;
+}
+
+section span {
+  font-size: 2vw;
+}
+
+section h3 {
+  font-size: 1.3vw;
+}
+
+.about_service {
+  display: flex;
+}
+
+.service_image {
+  width: 70%;
+}
+
+.service_details {
+  margin: auto;
+  width: 40vw;
+}
+
+.wrapper_image img {
+  z-index: -1;
+  width: 35vw;
+  height: 30vh;
+  object-fit: cover;
+  transform: translate(5vw,-10vh);
+  position: relative;
+}
+
+.wrapper_details {
+  width: 25vw;
+  padding: 3vh 0;
+  text-align: center;
+  color: white;
+  background: radial-gradient(#459faf, #3c6e9e);
+}
+
+.service_information {
+  margin: auto 10vw;
+  width: 40vw;
+  text-align: center;
+  display: flex;
+  border: 2px solid #000;
+}
+
+@media screen and (max-width: 480px){
+	
+	.about_service {
+	  display: block;
+	}
+	
+	section h3{
+		font-size: 3.3vw;
+	}
+	
+	section .wrapper_image img{
+		height: 15vh;
+	}
+	
+	section .service_details{
+		font-size: 3vw;
+
+	}
+
+}
